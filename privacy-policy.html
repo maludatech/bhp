@@ -745,137 +745,6 @@
                               <div class="cta-button"></div>
                             </div>
                           </div>
-
-                          <div
-                            class="col-lg-3 col-12 share-box"
-                            style="display: none"
-                          >
-                            <button
-                              aria-label="sharebutton"
-                              class="share-button"
-                              data-toggle="modal"
-                              data-target="#myShare-popup"
-                            >
-                              <i class="icon-social-media"></i>Share
-                            </button>
-                            <div class="modal share-popup" id="myShare-popup">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <button
-                                      type="button"
-                                      aria-label="shareclose"
-                                      class="close"
-                                      data-dismiss="modal"
-                                    >
-                                      <i class="icon icon-cross"></i>
-                                    </button>
-                                  </div>
-
-                                  <div class="modal-body">
-                                    <div class="popup-text">
-                                      <h4>Share this page</h4>
-                                      <p>
-                                        Choose your network to share this page
-                                        with. A new window will open.
-                                      </p>
-                                    </div>
-                                    <div class="addthis_toolbox">
-                                      <div class="social-icons">
-                                        <!-- Sharingbutton Twitter -->
-                                        <a
-                                          class="addthis_button_twitter resp-sharing-button__link"
-                                          href=""
-                                          target="_blank"
-                                          rel="noopener"
-                                          aria-label="X (formerly Twitter), BHP"
-                                        >
-                                          <div
-                                            class="twitter resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"
-                                          >
-                                            <div
-                                              aria-hidden="true"
-                                              class="resp-sharing-button__icon resp-sharing-button__icon--solid"
-                                            ></div>
-                                          </div>
-                                        </a>
-
-                                        <!-- Sharingbutton LinkedIn -->
-                                        <a
-                                          class="addthis_button_linkedin resp-sharing-button__link"
-                                          href=""
-                                          target="_blank"
-                                          rel="noopener"
-                                          aria-label="LinkedIn, BHP"
-                                        >
-                                          <div
-                                            class="linkedin resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"
-                                          >
-                                            <div
-                                              aria-hidden="true"
-                                              class="resp-sharing-button__icon resp-sharing-button__icon--solid"
-                                            ></div>
-                                          </div>
-                                        </a>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <script>
-                            {
-                              let socialIconButtons =
-                                document.querySelectorAll("div.share-box");
-
-                              for (
-                                let i = 0;
-                                i < socialIconButtons.length;
-                                i++
-                              ) {
-                                let socialIcons = socialIconButtons[i];
-                                socialIcons.style.display = "block";
-                              }
-
-                              let currentPageURL = encodeURIComponent(
-                                window.location.origin + "/privacy-policy"
-                              );
-                              currentPageURL = encodeURIComponent(
-                                "https://www.bhp.com" + "/privacy-policy"
-                              ); //UPDATE LATER
-
-                              //Twitter
-                              elements = document.querySelectorAll(
-                                "a.addthis_button_twitter"
-                              );
-                              if (elements.length > 0) {
-                                for (let i = 0; i < elements.length; i++) {
-                                  element = elements[i];
-                                  if (element) {
-                                    element.href =
-                                      "https://twitter.com/intent/tweet/?text=Privacy%20policy&url=" +
-                                      currentPageURL;
-                                  }
-                                }
-                              }
-
-                              //LinkedIn
-                              elements = document.querySelectorAll(
-                                "a.addthis_button_linkedin"
-                              );
-                              if (elements.length > 0) {
-                                for (let i = 0; i < elements.length; i++) {
-                                  element = elements[i];
-                                  if (element) {
-                                    element.href =
-                                      "https://www.linkedin.com/sharing/share-offsite?url=" +
-                                      currentPageURL;
-                                  }
-                                }
-                              }
-                            }
-                          </script>
                         </div>
                       </div>
                     </div>
@@ -897,25 +766,23 @@
                     <p style="background: white; margin-bottom: 8.05pt">
                       <br />
                       Protecting your privacy is very important to us. This
-                      policy sets out how BHP collects and processes your
-                      personal information. It also sets out your rights in
-                      relation to the personal information we hold about you. If
-                      you have questions about this policy, please contact the
-                      BHP Data Protection and Privacy Office at
-                      <a href="mailto:dataprivacy@bhp.com"
-                        >dataprivacy@bhp.com</a
-                      ><br />
+                      policy sets out how BHP Billiton Energy collects and
+                      processes your personal information. It also sets out your
+                      rights in relation to the personal information we hold
+                      about you.
+                      <br />
                       <!-- UPDATE LATER -->
                       <br />
                       <em>What does this policy do?<br /> </em>
                       <br />
-                      This policy describes how BHP deals with personal
-                      information of individuals that interact with BHP &ndash;
-                      this includes representatives of our suppliers, customers,
-                      sponsors and business partners; landowners; industry
-                      association representatives; users of the BHP website and
-                      mobile applications (&ldquo;<strong>apps</strong>&rdquo;);
-                      shareholders; and job applicants.<br />
+                      This policy describes how BHP Billiton Energy deals with
+                      personal information of individuals that interact with BHP
+                      Billiton Energy &ndash; this includes representatives of
+                      our suppliers, customers, sponsors and business partners;
+                      landowners; industry association representatives; users of
+                      the BHP Billiton Energy website and mobile applications
+                      (&ldquo;<strong>apps</strong>&rdquo;); shareholders; and
+                      job applicants.<br />
                       <br />
                       For the purposes of this policy, &ldquo;<strong
                         >personal information</strong
@@ -934,15 +801,17 @@
                       <br />
                       <em>Who we are<br /> </em>
                       <br />
-                      References to &ldquo;BHP&rdquo;, &ldquo;we&rdquo; or
-                      &ldquo;us&rdquo; in this policy mean BHP Group Limited of
-                      171 Collins Street, Melbourne, Victoria 3000, Australia,
-                      BHP Group Plc of Nova South, 160 Victoria Street, London,
-                      SW1E 5LB, UK, BHP Marketing Asia Pte Ltd of 10 Marina
-                      Boulevard, #50-01 Marina Bay Financial Tower, Tower 2,
-                      Singapore 018983) and all subsidiaries within the BHP
-                      group of companies worldwide (together &ldquo;BHP&rdquo;,
-                      &ldquo;we&rdquo;, or &ldquo;us&rdquo;).<br />
+                      References to &ldquo;BHP Billiton Energy&rdquo;,
+                      &ldquo;we&rdquo; or &ldquo;us&rdquo; in this policy mean
+                      BHP Billiton Energy Group Limited of 171 Collins Street,
+                      Melbourne, Victoria 3000, Australia, BHP Billiton Energy
+                      Group Plc of Nova South, 160 Victoria Street, London, SW1E
+                      5LB, UK, BHP Billiton Energy Marketing Asia Pte Ltd of 10
+                      Marina Boulevard, #50-01 Marina Bay Financial Tower, Tower
+                      2, Singapore 018983) and all subsidiaries within the BHP
+                      Billiton Energy group of companies worldwide (together
+                      &ldquo;BHP Billiton Energy&rdquo;, &ldquo;we&rdquo;, or
+                      &ldquo;us&rdquo;).<br />
                       <br />
                     </p>
                     <h4 style="background: white; margin-bottom: 8.05pt">
@@ -954,8 +823,8 @@
                       information depending on how you interact with us. In some
                       cases, this may include information that shows who you are
                       and/or is linked to you as a result of your interactions
-                      with BHP. In some circumstances, we may also collect
-                      sensitive personal information about you.<br />
+                      with BHP Billiton Energy. In some circumstances, we may
+                      also collect sensitive personal information about you.<br />
                       <br />
                       <em>How we collect personal information<br /> </em>
                       <br />
@@ -966,9 +835,9 @@
                       <a href="/contact-us.html">Contact Us</a>
                       form available on our website) or indirectly from your
                       interactions with us (such as by monitoring your use of
-                      the BHP website and apps). In some cases, we may also to
-                      collect personal information about you from third parties
-                      (such as recruitment agencies).<br />
+                      the BHP Billiton Energy website and apps). In some cases,
+                      we may also to collect personal information about you from
+                      third parties (such as recruitment agencies).<br />
                       <br />
                       <em>Types of personal information we collect<br /> </em>
                       <br />
@@ -1015,8 +884,8 @@
                         ></span
                         ><span style="background-color: #ffffff; color: #343a40"
                           >e-Business information &ndash; this includes
-                          information required to provide access to BHP
-                          e-Business websites or portals (such as login
+                          information required to provide access to BHP Billiton
+                          Energy e-Business websites or portals (such as login
                           information, IP addresses), and records of your use of
                           those websites or portals.</span
                         >
@@ -1040,14 +909,15 @@
                         ></span
                         ><span style="background-color: #ffffff; color: #343a40"
                           >Other information &ndash; this includes information
-                          about access and attendance to BHP premises and
-                          physical assets (such as security records about times
-                          of entry and exit, and information collected through
-                          CCTV), details about your use of our assets,
-                          communications with you (including complaints or
-                          concerns raised by you or any feedback or survey
+                          about access and attendance to BHP Billiton Energy
+                          premises and physical assets (such as security records
+                          about times of entry and exit, and information
+                          collected through CCTV), details about your use of our
+                          assets, communications with you (including complaints
+                          or concerns raised by you or any feedback or survey
                           responses that you provide to us) and other
-                          information you voluntarily provide to BHP.</span
+                          information you voluntarily provide to BHP Billiton
+                          Energy.</span
                         >
                       </li>
                     </ul>
@@ -1128,10 +998,11 @@
                           our website; to prepare analytics and profiling for
                           business intelligence purposes; to personalise your
                           experience on our website; managing our newsletters
-                          and communications and, where BHP collects details in
-                          the membership database relevant to BHP&rsquo;s
-                          e-Business website, for demographic analysis and
-                          personalisation of the website.</span
+                          and communications and, where BHP Billiton Energy
+                          collects details in the membership database relevant
+                          to BHP Billiton Energy&rsquo;s e-Business website, for
+                          demographic analysis and personalisation of the
+                          website.</span
                         >
                       </li>
                       <li>
@@ -1141,9 +1012,9 @@
                         ><span style="background-color: #ffffff; color: #343a40"
                           >recruitment-related purposes &ndash; this includes
                           considering you for career opportunities (including
-                          internship positions) with BHP and inviting you to
-                          participate in recruitment activities and
-                          events;</span
+                          internship positions) with BHP Billiton Energy and
+                          inviting you to participate in recruitment activities
+                          and events;</span
                         >
                       </li>
                       <li>
@@ -1261,21 +1132,24 @@
                       sometimes include sensitive personal information) within
                       our corporate group who require the information for the
                       purposes <em>in</em> this policy. This will include
-                      sharing your personal information with BHP entities in
-                      countries other than where the information was originally
-                      collected. Sharing of this information within our group is
-                      governed by a data transfer agreement that we have in
-                      place with all relevant BHP entities.<br />
+                      sharing your personal information with BHP Billiton Energy
+                      entities in countries other than where the information was
+                      originally collected. Sharing of this information within
+                      our group is governed by a data transfer agreement that we
+                      have in place with all relevant BHP Billiton Energy
+                      entities.<br />
                       <br />
-                      An overview of BHP&rsquo;s global corporate group and the
-                      countries in which BHP entities operate can be found in
-                      BHP&rsquo;s Annual Report (see
+                      An overview of BHP Billiton Energy&rsquo;s global
+                      corporate group and the countries in which BHP Billiton
+                      Energy entities operate can be found in BHP Billiton
+                      Energy&rsquo;s Annual Report (see
                       <a href="/investors.html">here</a>). Some members of our
                       corporate group also perform shared services for other BHP
-                      entities. As a result, your personal information (which
-                      may sometimes include sensitive personal information) may
-                      be processed by BHP&rsquo;s shared services centres based
-                      in Malaysia and the Philippines.<br />
+                      Billiton Energy entities. As a result, your personal
+                      information (which may sometimes include sensitive
+                      personal information) may be processed by BHP Billiton
+                      Energy&rsquo;s shared services centres based in Malaysia
+                      and the Philippines.<br />
                       <br />
                       <em>Disclosures outside our corporate group<br /> </em>
                       <br />
@@ -1297,10 +1171,10 @@
                         ><span style="background-color: #ffffff; color: #343a40"
                           >third parties who provide services we use to run our
                           business (such as external service providers that
-                          assist BHP to perform HR, information technology and
-                          other shared services functions, that provide IT
-                          services or that provide security for BHP sites or
-                          systems);</span
+                          assist BHP Billiton Energy to perform HR, information
+                          technology and other shared services functions, that
+                          provide IT services or that provide security for BHP
+                          Billiton Energy sites or systems);</span
                         >
                       </li>
                       <li>
@@ -1309,7 +1183,7 @@
                         ></span
                         ><span style="background-color: #ffffff; color: #343a40"
                           >prospective purchasers of all or part of our business
-                          or of any shares in BHP entity;</span
+                          or of any shares in BHP Billiton Energy entity;</span
                         >
                       </li>
                       <li>
@@ -1391,15 +1265,17 @@
                       If you are a job applicant, and your application is
                       unsuccessful, we may retain your personal information for
                       12 months for the purposes of considering you for other
-                      roles within BHP. We are under no obligation to retain
-                      your personal information for this purpose and may elect
-                      to delete your personal information at any time following
-                      an unsuccessful application.<br />
+                      roles within BHP Billiton Energy. We are under no
+                      obligation to retain your personal information for this
+                      purpose and may elect to delete your personal information
+                      at any time following an unsuccessful application.<br />
                       <br />
                       You may request that we delete your personal information
                       from our database at any time. You can do this by managing
                       your profile on our job vacancy website or by emailing us
-                      at<a href="mailto: jobs@bhp.com"> jobs@bhp.com</a>.<br />
+                      at<a href="mailto:bhpbillitonenergy@info.com">
+                        jobs@bhpbillitonenergy.com</a
+                      >.<br />
                       <br />
                       <!-- Update here -->
                       We will not deactivate your account on our job vacancy
@@ -1422,9 +1298,9 @@
                     <p style="background: white; margin-bottom: 8.05pt">
                       <br />
                       You have rights relating to your personal information held
-                      by BHP. Let us know if you want to correct your personal
-                      information or if you have concerns about how we are
-                      handling your personal information.<br />
+                      by BHP Billiton Energy. Let us know if you want to correct
+                      your personal information or if you have concerns about
+                      how we are handling your personal information.<br />
                       <br />
                       <em>Your rights<br /> </em>
                       <br />
@@ -1445,8 +1321,8 @@
                       If you are a job applicant, you can update your personal
                       information via your profile on our job vacancy website.
                       You may also remove any personal information you provided
-                      to us via BHP's job vacancy website at any time by sending
-                      a request to jobs@bhpbilliton.com.<br />
+                      to us via BHP Billiton Energy's job vacancy website at any
+                      time by sending a request to jobs@bhpbilliton.com.<br />
                       <!-- UPDATE HERE  -->
                       <br />
                       It is important to us that all of the information we hold
@@ -1474,7 +1350,8 @@
                       your concern, we will be able to provide further
                       information about how you can contact a relevant data
                       protection authority. For more information, please contact
-                      the BHP Data Protection and Privacy Office.<br />
+                      the BHP Billiton Energy Data Protection and Privacy
+                      Office.<br />
                       <br />
                     </p>
                     <h4 style="background: white; margin-bottom: 8.05pt">
@@ -1490,14 +1367,15 @@
                       <em>United Kingdom<br /> </em>
                       <br />
                       The additional provisions in this section apply to all
-                      individuals that work for BHP and are based in the UK.<br />
+                      individuals that work for BHP Billiton Energy and are
+                      based in the UK.<br />
                       <br />
                       <em>Interpretation<br /> </em>
                       <br />
                       For the purposes of all applicable UK and EU legislation,
                       references in this notice to &lsquo;personal
                       information&rsquo; shall be read as references to
-                      &lsquo;personal data&rsquo; and BHP is the
+                      &lsquo;personal data&rsquo; and BHP Billiton Energy is the
                       &ldquo;controller&rdquo; in relation to your personal
                       information.<br />
                       <br />
@@ -1506,9 +1384,9 @@
                         information&nbsp;<br />
                       </em>
                       <br />
-                      BHP will only process your personal information where we
-                      have a legal basis for doing so. This means we will
-                      process your personal information:
+                      BHP Billiton Energy will only process your personal
+                      information where we have a legal basis for doing so. This
+                      means we will process your personal information:
                     </p>
                     <ul class="unordered-list">
                       <li>
@@ -1530,8 +1408,8 @@
                           style="background-color: #ffffff; color: #343a40"
                         ></span
                         ><span style="background-color: #ffffff; color: #343a40"
-                          >where it is in BHP&rsquo;s legitimate business
-                          interests; or</span
+                          >where it is in BHP Billiton Energy&rsquo;s legitimate
+                          business interests; or</span
                         >
                       </li>
                       <li>
@@ -1574,15 +1452,15 @@
                           style="background-color: #ffffff; color: #343a40"
                         ></span
                         ><span style="background-color: #ffffff; color: #343a40"
-                          >the transfer of your personal information from BHP to
-                          a third party.</span
+                          >the transfer of your personal information from BHP
+                          Billiton Energy to a third party.</span
                         >
                       </li>
                     </ul>
                     <p style="background: white; margin-bottom: 8.05pt">
                       You also have the right to object to the processing of
-                      your personal information by BHP in certain
-                      circumstances.<br />
+                      your personal information by BHP Billiton Energy in
+                      certain circumstances.<br />
                       <br />
                       You can also request a copy of the documented safeguards
                       that we have put in place relating to the sharing of
@@ -1591,8 +1469,9 @@
                       <br />
                       If you wish to make a request, or raise an objection, of
                       this nature, contact the
-                      <a href="mailto:dataprivacy@bhp.com"
-                        >BHP Data Protection and Privacy Office</a
+                      <a href="mailto:bhpbillitonenergy@info.com"
+                        >BHP Billiton Energy Data Protection and Privacy
+                        Office</a
                       >.<br />
                       <!-- UPDATE HERE-->
                       <br />
@@ -1606,12 +1485,13 @@
                       necessary to reflect changes in applicable laws or in our
                       privacy compliance practices. The latest version of this
                       policy will always be available online through the BHP
-                      website.<br />
+                      Billiton Energy website.<br />
                       <br />
                       This policy will be updated where necessary to reflect
                       changes in applicable laws or in our privacy compliance
                       practices. The latest version of this policy will always
-                      be available online through the BHP website.<br />
+                      be available online through the BHP Billiton Energy
+                      website.<br />
                       <br />
                     </p>
                     <h4 style="background: white; margin-bottom: 8.05pt">
@@ -1620,7 +1500,7 @@
                     <p style="background: white; margin-bottom: 8.05pt">
                       <br />
                       If you have any questions about this policy, contact our<a
-                        href="mailto:dataprivacy@bhp.com"
+                        href="mailto:bhpbillitonenergy@info.com"
                       >
                         <!-- UPDATE HERE-->
                         Data Protection and Privacy Office</a
@@ -1628,7 +1508,7 @@
                       <br />
                       You can raise privacy-related queries (either related to
                       this policy or otherwise) with the
-                      <a href="mailto:dataprivacy@bhp.com"
+                      <a href="mailto:bhpbillitonenergy@info.com"
                         >BHP Data Protection and Privacy Office</a
                       >.<br />
                       <!-- UPDATE HERE-->
